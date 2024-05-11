@@ -1,5 +1,4 @@
 import React from "react";
-import React from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -9,7 +8,10 @@ import Experience from "./components/Experience";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main
+      className="text-indigo-700 body-font"
+      style={{ background: "#EEEDE7", color: "#868B8E" }}
+    >
       <Navbar />
       <About />
       <Projects />
